@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>⭐ Comments ⭐</title>
+<meta name="author" content="Fatima Malik - 26097511">
+    <link rel="stylesheet" href="websystems.css">
+  </head>
+
+  <body>
+    
+  <nav class="buttons">
+    <ol>
+      <li class="button"><a href="index.html">⭐Home</a></li>
+      <li class="button"><a href="past.html">⭐Past</a></li>
+      <li class="button"><a href="future.html">⭐Future</a></li>
+      <li class="button"><a href="comments.html">⭐Comments</a></li>
+    </ol>
+  </nav>
+
+ <div class="top-banner">
+<p>─── ⋆⋅☆⋅⋆ ── </p>  
+</div>
+
+  <div class="container">
+  <div class="profile">
+  <img src="images/lasso.png" alt="Snoopy holding up a lasso " width=150 height="150" style="float:right;">
+  <h1>Comments - The Structure:</h1>
+
+  
+  <p>
+  The website follows a very easy structure. It consists of four main pages: Home, Past, Future and Comments. These page contains information unique to itself. Moreover, these pages are connected using a navigation bar styled as buttons across the top of each page. This navigation is consistent throughout each page, allowing the user to switch between each page in a smooth and intuitive manner without having to use the back arrows.
+  </p>
+  
+  <p>
+  The website is stored in a home directory called <code>Websystems</code>. This directory contains the core files; Index.html, Past.html, Future.html and Comments.html. All of these HTMl pages share a common CSS stylesheet, which defines its visual design and layout. The <code>Websystems</code> directory also includes additional assets that contribute to the site's aesthetic. This includes the imported custom font <code>VT323-Regular</code>, which is used consistently across all pages for a retro look. The backgroung image <code>bg.jpg</code> provides visual consistency. Additionally, there's an <code>icons</code> folder within the directory that houses all the small PNGS that are scatteringly displayed around each web-page for decorative purposes.
+  </p>
+  <img src="images/draw.png" alt="Snoopy holding up a drawing " width=150 height="150" style="float:left;">
+
+  <p>
+    Pages are divided into semantic sections using HTMLS tags. Each page on the site is built using a consistent layout which includes a header section (with a header and a navigation bar), a content section (which changes based on the topic of the page) and a footer. The header contains the navigation bar, which is made up of styled anchor (a) tags wrapped inside a container(div) which provides spacing and layout control. The main content is typically store within these div containers.
+  </p> 
+
+  <p> 
+  Structurally, the website's code relies heavily on <code>div</code> elements, along with the use of <code>class</code>, <code>id</code>, and <code>span</code>. These serve as "hooks" for CSS, allowing it to precisely target and style the pages. Furthermore, classes were prevalent throughout the code. These were used whenever a style was repeated across multiple pages, preventing the need to have to rewrite code over and over again.  
+  </p> 
+
+
+</div>
+
+  <div class="banner"> ─── ⋆⋅☆⋅⋆ ── </div>
+
+  <div class="extra">
+  <div class="box">
+  <h2>Graphic Design Choices 🎨</h2>
+  <img src="images/painter.gif" alt="Snoopy holding flowers" width="120" height="150" style="float: right;"> 
+  <p>
+  The graphic design aspects of the website were influenced significantly by my interests. My main aim was to create a website that was both visually engaging and reflected my personality. A consistent layout is used across all pages. Consisting of a header with navigation buttons, a content section, and a footer. This basic structure ensured clarity and familiarity for the user. I aimed for a retro aesthetic which I appealed to through the custom font <code>VT323-Regular</code>, giving a typewriter like appearance reminiscent of early computing. The colour palette consisted of a soft brown text against a pastel yellow background which enhanced its readability while maintaining the warm aesthetic. Occasional use of other pastel tones further enhanced this aesthetic while minimising visual strain. The background image was obtained from the Studio Ghibli film "When Marnie Was There". This film followed similar aesthetics, maintaining a unified identity with the website while providing a consistent visual anchor for the viewer. Additionally, small illustrations such as those of Snoopy and other characters balance out the content and make it less overwhelming while adding to the decorative element. Overall, the design helps balance the functionality with a hint of personality, thus enhancing the user's experience by being both intuitive and aesthetically pleasant, using consistent styling and charming graphics to reflect the site's friendly tone.
+  </p>
+  </div>
+
+  <div class="box">
+  
+ <h2><strong>Accessibility and Fallback design</strong></h2>
+ <img src="images/woodstock.png" alt="snoopy walking and woodstock the yellow bird following him" width="170" height="150" style="float:left;"> <!--Peanuts © Charles M. Schulz -->
+ <p>To ensure accessibility for all users, especially those using screen readers or browing with images off, I used the <code>alt</code> attribute for all images across the site. This tag provides a descriptive alternative text to the image it is attached to, thus communicating the content or function of the image to the user if the image fails to load.</p>
+ <p>Furthermore, the website remains fully functional even after CSS is turned off. The content remains readable and navigable with all headings and paragraphs also remaining visible. This flow of information is preserved through the use of the HTMl semantic elements. However, without CSS, the visual and aesthetic appeal of the website decreases significantly. Hence, the website continues to adhere to the basic web access standards however it does lose its artistic quality. Without CSS, the content is presented linearly from top to bottom, with no control over the spacing, alignment or hierearchy beyond the basic HTML tags like <code>h1</code> or <code>p</code>. Therefore, while the website does present all the required content and is navigable, the background images no longer appear, the layour reverts to block elements stacked vertically and any hover effects especially those applied on the navigation bar alongside the other spacing refinements are lost. </p>
+
+  </div>
+  </div>
+    
+
+    
+<div class="Other">
+
+<div class="Table">
+  <h2>A description of the CSS Styles used:</h2>
+  <p> 
+  I used a well organised CSS stylesheet to apply consistent and visually appealing styles across all pages. The table below explains each selector used, its type, what it styles and where its used:
+ </p>
+
+  <table>
+    <thead>
+      <tr> 
+        <th>Selector</th>
+        <th>Type of Selector</th>
+        <th>What it Does</th>
+        <th>Where It's Used</th>
+     </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td> <code>body</code></td>
+        <td>Element</td>
+        <td>The body element applies the background image, sets the font and layout spacing of the webpage. It also applies the background image and adjusts it appropriately. </td>
+        <td>Entire website</td>
+      </tr>
+
+      <tr> 
+       <td><code>.button</code></td>
+       <td>Class</td>
+       <td>Styles the navigation links, buttons and their background colour and hover effects</td>
+       <td>All pages</td>
+      </tr>
+ 
+       <tr> 
+        <td><code>.top-banner, .banner </code></td>
+        <td>Class</td>
+        <td>Controls the white banner on top of each page. It gives it its colour and aligns it in the center of the page. </td>
+        <td>All pages</td>
+      </tr>
+
+     <tr> 
+       <td><code>#headings</code></td>
+       <td>id</td>
+       <td>This controls the heading box present on the Index.html page. It gives it its unique yellow colour and controls the headings present inside it.</td>
+       <td>Index.html</td>
+    </tr>
+
+    
+      <tr>
+        <td> <code>.container </code></td>
+        <td>Class</td>
+        <td>It controls the main yellow backdrop in which all the smaller boxes storing the content are placed. It applies the margins, properly aligns it in the center of the page, gives it a solid border with a distinct colour and sets a width of 80%.  </td>
+        <td>All pages</td>
+      </tr>
+
+      <tr> 
+        <td><code>.profile</code></td>
+        <td>Class</td>
+        <td>This class controls the layout of the second box within the page. It houses all the introdutory content about the page while giving it its colour, controlling its margins, padding and alignment. </td>
+        <td>All pages</td>
+      </tr>
+
+      <tr>
+        <td><code>#age</code></td>
+        <td>id</td>
+        <td>Controls the layout and appearance of the age box. </td>
+        <td>Index.html </td>
+      </tr>
+
+      <tr>
+        <td><code>.extra</code></td>
+        <td>Class</td>
+        <td>This class controls and adjusts the second lot of boxes on the page. They make sure these boxes fit together and appear on the same level and maintains the spacing in between them.  </td>
+        <td>All pages </td>
+      </tr>
+
+      <tr> 
+        <td><code>.box</code></td>
+        <td>Class</td>
+        <td>This class controls each box specifically, applying the unique colour scheme, padding, border-radius and width to them.</td>
+        <td>All pages</td>
+      </tr>
+
+      <tr> 
+        <td><code>.Other</code></td>
+        <td>Class</td>
+        <td>This class controls the layout and appearance of the last box. It ensures this box maintains the top and bottom margins while giving it its colour, padding and its border-radius.   </td>
+        <td>All pages</td>
+      </tr>
+
+       <tr> 
+        <td><code>.footer</code></td>
+        <td>Class</td>
+        <td>This controls the footer at the end of the page, giving the credits at the end of each page their colour and layout. </td>
+        <td>All pages</td>
+      </tr>
+
+       <tr> 
+        <td><code>#References</code></td>
+        <td>id</td>
+        <td>This id applies the hanging indent to the ordered list and removes the bullets, ensuring they follow the required referencing style. It also applies the appropriate margins and aligns the text to the left. </td>
+        <td>Future.html</td>
+      </tr>
+
+      <tr> 
+        <td><code>.Table table</code></td>
+        <td>Class</td>
+        <td>Sets table layout: full width, no border spacing, top margin and left aligned text</td>
+        <td>Future.html, Comments.html</td>
+      </tr>
+
+
+      <tr> 
+        <td><code>.Table th, .Table td</code></td>
+        <td>Class</td>
+        <td>This class styles the table's cells by adding borders, background colour and padding.</td>
+        <td>Table headers and data cells</td>
+      </tr>
+
+
+      <tr> 
+        <td><code>.Table th</code></td>
+        <td>Class</td>
+        <td>Gives a different background colour to the header cells</td>
+        <td>Table headers only</td>
+      </tr>
+
+      
+      <tr> 
+        <td><code>tr:nth-child(even)</code></td>
+        <td>Pseudo-class</td>
+        <td>Applies alternate row shading to enhance the text's readability.</td>
+        <td>All even-numbered table rows</td>
+      </tr>
+
+      <tr>
+  <td><code>#spotify-icon, #spotify-icon-link</code></td>
+  <td>id</td>
+  <td>Places the Spotify icon at the bottom-left corner of the screen and styles it with size and hover effects.</td>
+  <td>Index.html</td>
+</tr>
+
+
+    </tbody>
+    </table> 
+  </div>
+  </div>
+
+<div class="banner">    
+  <p>─── ⋆⋅☆⋅⋆ ──</p>
+</div>
+</div>
+
+<footer class="footer">
+  <span>&#169;</span> Image credits:
+  <p> Snoopy image from <a href="https://www.peanuts.com" target="_blank" style="color: #ccc;">Peanuts</a> © Charles M. Schulz.</p>
+  <p> When Marnie Was There background <a href="https://www.ghibli.jp/works/#kimitachi" target="_blank" style="color: #ccc;">© 2014 Joan G. Robinson/Keiko Niwa/Studio Ghibli, NDHDMTK</a></p>
+</footer>
+
+</body>
+</html>
