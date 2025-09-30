@@ -1,6 +1,6 @@
 @font-face {
 font-family: "VT323";
-src: url('VT323-Regular.ttf') format('truetype');
+src: url('./VT323-Regular.ttf') format('truetype');
 }
 
 body { font-size: 100%;
@@ -209,6 +209,7 @@ tr:nth-child(even) {
 .spotify-icon img:hover {
   transform: scale(1.1);
 }
+
 
 
 
